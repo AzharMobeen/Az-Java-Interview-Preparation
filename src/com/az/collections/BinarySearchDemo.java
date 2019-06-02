@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
+
 public class BinarySearchDemo {
 
 	private List<User> userList = new ArrayList<>();
@@ -72,8 +74,11 @@ public class BinarySearchDemo {
 	
 	
 	public void generateDumyUserList() {
-		for(int i = 0; i<50;i++) {
-			this.addUser(new User("AZ-"+i+"-A", i));
+		for(int i = 0; i<=50;i++) {
+			if(i<10)
+				this.addUser(new User("AZ-0"+i+"-A", i));
+			else
+				this.addUser(new User("AZ-"+i+"-A", i));
 		}
 	}
 	
