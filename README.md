@@ -72,6 +72,7 @@ it uses `equale()` & `hashCode()` method for comparing| It uses `compare()` and 
 Both allow one `null` object| not allow `null` object (throws NullPointerException)
 
 ### Map
+* Map interface doesn't extends Collection Interface.
 * Data store in key & value format.
 * Value can be duplicate but key can't be duplicate.
 * Child Interfaces:
