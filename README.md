@@ -153,7 +153,8 @@ It's not thread safe|It's synchronized / thread safe|it's not thread safe|
 `Use When:` we no need to change/update String value|`Use When:` In Multi threading|`Use When:` we need to change/update String value in none threading app|
 `Version 1.0`|`Version 1.0`|`Version 1.5`|
 
-##### Interface | Abstract Class | Concrete Class|
+##### Interface Vs Abstract Class Vs Concrete Class 
+Interface | Abstract Class | Concrete Class|
 ---|---|---|
 `Use When:` If we don't know anything about implementation|`Use When:` If we know partial implementation|`Use When:` If we know completely implementation|
 `Example:` Servlet Interface|`Example:` HTTP Servlet|`Example:` Custom Servlet|
@@ -170,7 +171,6 @@ In single class if we have two methods with same name but different no of argume
 Compile time Polymorphism|Run time Polymorphism|
 Return type no restriction| it must be same or co-variant object type like String, StringBuffer|
 Private, Static & final can be overloading| private, Static and Final methods not possible to override|  
-
 
 ### Concurrency / MultiThreading 
 
