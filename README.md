@@ -36,14 +36,14 @@ Duplication allow | Duplication not allow
 ##### Array List & Vector Vs LinkedList:
 
 Array List & Vector | Linked List |
-             ---    | ---         | 
+---    | ---         |
 In both underneath data structure is an `Array`. | Underneath data structure is `LinkedList` (doubly LinkedList).
 Faster then `LinkedList` for get element from list. | Slower then `ArrayList` & `Vector` for get element from list.
 Slower then `LinkedList` while deletion and insertion into list.| Faster then `ArrayList` & `Vector` while deletion and insertion into list.
 `Vector` is thread safe but `Array List` is not Thread safe | Not thread safe.
 `Array List` is faster then `Vector`.|
 Implement `List` Interface | Implement `List` and `Deque` Interfaces
-`Vector` introduced in Java 1.0 & `Array List` in Java 1.2|`Linke List` introduced in 1.2
+`Vector` introduced in Java 1.0 & `Array List` in Java 1.2|`Linke List` introduced in 1.2 
 
 ### SET:
 * Unordered collection.
@@ -94,7 +94,7 @@ Both allow one `null` object| not allow `null` object (throws NullPointerExcepti
 
 ## Comparable  VS Comparator
 Comparable | Comparator |
-      ---  |  ---       |
+---  |  ---       |
 Default sorting order|Customizable sorting order
 package java.lang| package java.util
 Interface contain only one method `compareTo()` | Interface contain two methods `compare()` & `equale()`
