@@ -193,3 +193,23 @@ Private, Static & final can be overloading| private, Static and Final methods no
  - AtomicLong
  - AtomicBoolean
  - AtomicReference
+
+## Java 8 Stream:
+* Java stream operation can be devided into two partst `Intermediate` and `Terminal` operations
+### Intermediate Operations:
+* Filter
+* Map
+* Distinct
+* Sorted
+* Limit
+* Seek
+* Peek
+### Terminal Operations:
+* ForEach
+* Collect
+* FindFirst
+* FindAny
+* AnyMatch
+* Count
+* Min
+* Max
