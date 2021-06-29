@@ -16,6 +16,7 @@
     - isEmpty [for checking stack have some value or not]
     - peek    [check the last value]
     - search  [for searching specific value]
+* Code level example `com.az.datastructure.stack`.
 #### Queue
 * It's an interface
 * Introduce in Java 1.5
@@ -31,7 +32,7 @@
     - offer   [for adding value but it will not through exception if capacity is full]
     - isEmpty [for checking stack have some value or not]
     - peek    [check the Peek value]
-
+* Code level example `com.az.datastructure.queue`.
 #### Linked List
 * Implementation class of List collection
 * Java have only doubly linked list but before that we should understand singly linked list.
@@ -46,4 +47,4 @@
         - In this every node have information of his next and previous node information.
         - We need to maintain first and last node information as we did in `CircularLinkedList`
         - In this LinkedList we can easily add in middle or after/before of specific node.
-*
+* Code level example `com.az.datastructure.list`.
