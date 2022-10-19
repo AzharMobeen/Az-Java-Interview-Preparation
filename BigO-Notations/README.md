@@ -35,7 +35,7 @@
 ##### Cubic Growth Rate:
 * If we have 3 loops like loop have another loop that also have another loop.
 * For example if we have three lists and each have 10 record and if we need to use `Cubic` algorithm
-  it will iterate max `10 x 10 x 10 = 300` times.
+  it will iterate max `10 x 10 x 10 = 1000` times.
 * Big O notation is `O(n^3)`
 * `Cubic growth rate` algorithm:
 
