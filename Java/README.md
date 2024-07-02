@@ -76,4 +76,4 @@ OverLoading|OverRiding|
 In single class if we have two methods with same name but different no of arguments or different type of arguments| In parent child classes if we have same method name with same method arguments| 
 Compile time Polymorphism|Run time Polymorphism|
 Return type no restriction| it must be same or co-variant object type like String, StringBuffer|
-Private, Static & final can be overloading| private, Static and Final methods not possible to override|  
+Private, Static & final methods can possible for overloading| private, Static and Final methods not possible to overriding|  
