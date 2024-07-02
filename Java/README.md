@@ -15,7 +15,7 @@ By Default primitive data types implemented comparable|
     - Cloning
 
 ###### Shallow Copy:
-* By creating another reference of some object called shallow copy
+* By creating another reference of same object called shallow copy
 * In memory both object reference are pointing same object.
 ```
 class A{
